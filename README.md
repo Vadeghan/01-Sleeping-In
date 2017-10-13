@@ -1,6 +1,6 @@
 # Challenge #1 - Sleeping in
 
-Like this challenge, sleeping should be very easy for you. Unfortunatly, we aren't always in a position to do so.
+Like this challenge, sleeping should be very easy for you. Unfortunately, we aren't always in a position to do so.
 
 > For this week's challenge, you must write a script that takes two arguments (`weekday` and `holiday`), to determine whether or not it is a suitable day for a sleep in.
 
@@ -21,7 +21,9 @@ sleepIn(False, True) ==> True
 ```
 
 ## Extension
-Let's make this code even more useful by adding another parameter into the mix. Since school for us usually starts an hour later on Wednesdays, lets add a parameter called `wednesday`, which if True, also makes the output true. There's one catch. Because Wednesday is a weekday, if the user sets `wednesday` to be True, while setting  `weekday` to be False, they have just performed the impossible. As a result, you should return a None value, or the equivelent of that in your selected programming language. This should be done whether or not `holiday` is True.
+Let's make this code even more useful by adding another parameter into the mix. Since school for us usually starts an hour later on Wednesdays, let's add an argument called `wednesday`, which if True, also makes the output True. 
+
+There's one catch. Because Wednesday is a weekday, if the user sets `wednesday` to be True, while setting  `weekday` to be False, they have just performed an error on their part. As a result, you should return a None value, or the equivalent of that in your selected programming language. This should be done whether or not `holiday` is True.
 
 ```
 sleepIn(weekday, holiday, wednesday) ==> output
