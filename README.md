@@ -10,14 +10,14 @@ Both arguments (or parameters) will be inputted as boolean values. Therefore, th
 #### Output:
 Like, your input, your output must also be a boolean value, in this case. You must return True if it is either not a weekday, if it is holiday time, or if it happens to be both.
 
-`sleepIn(weekday, holiday) ==> output`
+`sleep_in(weekday, holiday) ==> output`
 
 #### Examples:
 Try out these sample tests to check if your code is working properly:
 ```
-sleepIn(False, False) ==> True
-sleepIn(True, False) ==> False
-sleepIn(False, True) ==> True
+sleep_in(False, False) ==> True
+sleep_in(True, False) ==> False
+sleep_in(False, True) ==> True
 ```
 
 ## Extension
@@ -26,12 +26,12 @@ Let's make this code even more useful by adding another parameter into the mix. 
 There's one catch. Because Wednesday is a weekday, if the user sets `wednesday` to be True, while setting  `weekday` to be False, they have just performed an error on their part. As a result, you should return a None value, or the equivalent of that in your selected programming language. This should be done whether or not `holiday` is True.
 
 ```
-sleepIn(weekday, holiday, wednesday) ==> output
+sleep_in(weekday, holiday, wednesday) ==> output
 
-sleepIn(False, False, True) ==> True
-sleepIn(True, False, True) ==> True
-sleepIn(False, True, True) ==> None
-sleepIn(False, False, True) ==> None
+sleep_in(False, False, True) ==> True
+sleep_in(True, False, True) ==> True
+sleep_in(False, True, True) ==> None
+sleep_in(False, False, True) ==> None
 ```
 
 ### Acknowledgments
