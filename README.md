@@ -8,7 +8,7 @@ Like this challenge, sleeping should be very easy for you. Unfortunately, we are
 Both arguments (or parameters) will be inputted as boolean values. The parameter `weekday` will be True if it is a weekday, and the parameter `holiday` will be True if we are on holidays, and vice versa.
 
 #### Output:
-Like, your input, your output must also be a boolean value. *You must return True if it is either not a weekday, if it is holiday time, or if it happens to be both, otherwise return False.*
+Like, your input, your output must also be a boolean value. **You must return True if it is either not a weekday, if it is holiday time, or if it happens to be both, otherwise return False.**
 
 `sleep_in(weekday, holiday) ==> output`
 
