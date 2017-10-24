@@ -2,7 +2,7 @@
 
 Like this challenge, sleeping should be very easy for you. Unfortunately, we aren't always in a position to do so.
 
-> For this week's challenge, you must write a script that takes two arguments (`weekday` and `holiday`), to determine whether or not it is a suitable day for a sleep in.
+> For this week's challenge, you must create a function that takes two arguments (`weekday` and `holiday`), to determine whether or not it is a suitable day for a sleep in.
 
 #### Input:
 Both arguments (or parameters) will be inputted as boolean values. The parameter `weekday` will be True if it is a weekday, and the parameter `holiday` will be True if we are on holidays, and vice versa.
